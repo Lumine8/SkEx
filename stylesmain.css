@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+body{
+    overflow-x: hidden;
+    font-family: 'Cairo', sans-serif;
+    display: grid;
+    font-weight: bold;
+    position: relative;
+    
+}
+
+.userimg{
+    max-width: 3.5%;
+    height: 10%;
+}
+
+.comaplogo{
+    width: 5%;
+    height: 5%;
+    float: left;
+    transform: translate(5rem,1rem);
+}
+
+.nav .nav-ul .nav-li{
+    display: inline-grid;
+    grid-column: 3/6;
+    grid-row: 1;
+    grid-template-columns:40px 40px 40px 40px 40px;
+    grid-gap: auto;
+}
+
+.nav-li a{
+    text-decoration: none;
+    color: rgb(128, 127, 127);
+    font-size: small;
+}
+
+.nav-li a:hover, .nav-li a:visited{
+    color: rgb(238, 128, 32);
+}
+
+
+.nav .userimg{
+        transform: translate(-19px,-50px);
+        box-shadow: 0 0.5px 1px 0 grey, 0 0.5px 1px 0 grey;
+
+        border-radius: 15px;
+}
+
+.nav{
+    /*position: fixed;*/
+    background-color:whitesmoke;
+    border: 0.1em solid rgb(223, 216, 216);
+    height: 5.5rem;
+    width: 70%;
+    transform: translate(32.5rem,-75px);
+    margin-top: -16px;
+    border-radius:0 0 0 12px;
+}
+
+.stex-div .stex-ul .stex-li{
+    display: inline-grid;
+    grid-column:1/2;
+    grid-row: 1;
+    padding: 0 2rem;
+}
+
+.stex-div{
+    border: 0.1em solid rgb(223, 216, 216);
+    background-color: whitesmoke;
+    width: 31%;
+    margin-top: -8.5px;
+    margin-left: -8px;
+    border-radius:0 0 12px 0;
+}
